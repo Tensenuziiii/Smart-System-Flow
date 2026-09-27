@@ -21,6 +21,8 @@ backend/tests/fixtures/requests_repo/
 frontend/node_modules/
 frontend/.next/
 frontend/out/
+frontend/.netlify/
+.netlify/
 
 # Editor and OS files
 .vscode/
