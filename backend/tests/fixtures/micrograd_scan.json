@@ -1,0 +1,1193 @@
+{
+  "commit": "7bc720e951fe422b8f8814aa5aa1b64121d26b4c",
+  "scan_time_seconds": 0.005,
+  "total_files": 10,
+  "parse_failures": 0,
+  "parse_failure_rate_pct": 0.0,
+  "languages": {
+    "unknown": 4,
+    "markdown": 1,
+    "python": 5
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "language": null,
+      "hash": "a4e97f92728e43e555cf82bb57e201ba5e3a4f1d7c51675d4836230c5ee9e62f",
+      "size_bytes": 21,
+      "parse_error": null
+    },
+    {
+      "path": "demo.ipynb",
+      "language": null,
+      "hash": "af97d4627e503d63ac8e3658bdf8d64c3cae620325b5318add3e6d59a60c62bd",
+      "size_bytes": 57903,
+      "parse_error": null
+    },
+    {
+      "path": "LICENSE",
+      "language": null,
+      "hash": "b482f0f356cb0476fff2e8625d9025028e50ae5c8c482247df795bec6629cfa1",
+      "size_bytes": 1088,
+      "parse_error": null
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "hash": "e89ba299fe3c5ec40febf03d9a0f7522e341a1ab9226ffee5e453272afdfaaf5",
+      "size_bytes": 3082,
+      "parse_error": null
+    },
+    {
+      "path": "setup.py",
+      "language": "python",
+      "hash": "95dd4a2e7c14097ab37f233ff5a662b4c68eb8f7a45d32c6c4fe1424f4bc660b",
+      "size_bytes": 739,
+      "parse_error": null
+    },
+    {
+      "path": "trace_graph.ipynb",
+      "language": null,
+      "hash": "876b9b95f649c621c16e08f734883746bf5236cdafb0968edb146f53cc0b0e19",
+      "size_bytes": 3059,
+      "parse_error": null
+    },
+    {
+      "path": "micrograd/engine.py",
+      "language": "python",
+      "hash": "1af9687af825bccb3e3359b7621e0da8af38c1a90cc977f6c878a6b8b09eb91a",
+      "size_bytes": 2824,
+      "parse_error": null
+    },
+    {
+      "path": "micrograd/nn.py",
+      "language": "python",
+      "hash": "e5f95338cc4176fb2b6872f969805ece9af79e5f320d32c00ca3d57ae0d4d3ef",
+      "size_bytes": 1673,
+      "parse_error": null
+    },
+    {
+      "path": "micrograd/__init__.py",
+      "language": "python",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0,
+      "parse_error": null
+    },
+    {
+      "path": "test/test_engine.py",
+      "language": "python",
+      "hash": "75036a6aa211d4d5bb284dc2ceaa753576b766d133a39142af3441eba2b4cc1d",
+      "size_bytes": 1537,
+      "parse_error": null
+    }
+  ],
+  "symbols": [
+    {
+      "name": "Value",
+      "type": "class",
+      "file": "micrograd/engine.py",
+      "line_start": 2,
+      "line_end": 94,
+      "docstring": "stores a single scalar value and its gradient"
+    },
+    {
+      "name": "Value.__init__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 5,
+      "line_end": 11,
+      "docstring": null
+    },
+    {
+      "name": "Value.__add__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 13,
+      "line_end": 22,
+      "docstring": null
+    },
+    {
+      "name": "Value.__mul__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 24,
+      "line_end": 33,
+      "docstring": null
+    },
+    {
+      "name": "Value.__pow__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 35,
+      "line_end": 43,
+      "docstring": null
+    },
+    {
+      "name": "Value.relu",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 45,
+      "line_end": 52,
+      "docstring": null
+    },
+    {
+      "name": "Value.backward",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 54,
+      "line_end": 70,
+      "docstring": null
+    },
+    {
+      "name": "Value.__neg__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 72,
+      "line_end": 73,
+      "docstring": null
+    },
+    {
+      "name": "Value.__radd__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 75,
+      "line_end": 76,
+      "docstring": null
+    },
+    {
+      "name": "Value.__sub__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 78,
+      "line_end": 79,
+      "docstring": null
+    },
+    {
+      "name": "Value.__rsub__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 81,
+      "line_end": 82,
+      "docstring": null
+    },
+    {
+      "name": "Value.__rmul__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 84,
+      "line_end": 85,
+      "docstring": null
+    },
+    {
+      "name": "Value.__truediv__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 87,
+      "line_end": 88,
+      "docstring": null
+    },
+    {
+      "name": "Value.__rtruediv__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 90,
+      "line_end": 91,
+      "docstring": null
+    },
+    {
+      "name": "Value.__repr__",
+      "type": "fn",
+      "file": "micrograd/engine.py",
+      "line_start": 93,
+      "line_end": 94,
+      "docstring": null
+    },
+    {
+      "name": "Module",
+      "type": "class",
+      "file": "micrograd/nn.py",
+      "line_start": 4,
+      "line_end": 11,
+      "docstring": null
+    },
+    {
+      "name": "Module.zero_grad",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 6,
+      "line_end": 8,
+      "docstring": null
+    },
+    {
+      "name": "Module.parameters",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 10,
+      "line_end": 11,
+      "docstring": null
+    },
+    {
+      "name": "Neuron",
+      "type": "class",
+      "file": "micrograd/nn.py",
+      "line_start": 13,
+      "line_end": 28,
+      "docstring": null
+    },
+    {
+      "name": "Neuron.__init__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 15,
+      "line_end": 18,
+      "docstring": null
+    },
+    {
+      "name": "Neuron.__call__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 20,
+      "line_end": 22,
+      "docstring": null
+    },
+    {
+      "name": "Neuron.parameters",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 24,
+      "line_end": 25,
+      "docstring": null
+    },
+    {
+      "name": "Neuron.__repr__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 27,
+      "line_end": 28,
+      "docstring": null
+    },
+    {
+      "name": "Layer",
+      "type": "class",
+      "file": "micrograd/nn.py",
+      "line_start": 30,
+      "line_end": 43,
+      "docstring": null
+    },
+    {
+      "name": "Layer.__init__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 32,
+      "line_end": 33,
+      "docstring": null
+    },
+    {
+      "name": "Layer.__call__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 35,
+      "line_end": 37,
+      "docstring": null
+    },
+    {
+      "name": "Layer.parameters",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 39,
+      "line_end": 40,
+      "docstring": null
+    },
+    {
+      "name": "Layer.__repr__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 42,
+      "line_end": 43,
+      "docstring": null
+    },
+    {
+      "name": "MLP",
+      "type": "class",
+      "file": "micrograd/nn.py",
+      "line_start": 45,
+      "line_end": 60,
+      "docstring": null
+    },
+    {
+      "name": "MLP.__init__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 47,
+      "line_end": 49,
+      "docstring": null
+    },
+    {
+      "name": "MLP.__call__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 51,
+      "line_end": 54,
+      "docstring": null
+    },
+    {
+      "name": "MLP.parameters",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 56,
+      "line_end": 57,
+      "docstring": null
+    },
+    {
+      "name": "MLP.__repr__",
+      "type": "fn",
+      "file": "micrograd/nn.py",
+      "line_start": 59,
+      "line_end": 60,
+      "docstring": null
+    },
+    {
+      "name": "test_sanity_check",
+      "type": "fn",
+      "file": "test/test_engine.py",
+      "line_start": 4,
+      "line_end": 26,
+      "docstring": null
+    },
+    {
+      "name": "test_more_ops",
+      "type": "fn",
+      "file": "test/test_engine.py",
+      "line_start": 28,
+      "line_end": 67,
+      "docstring": null
+    }
+  ],
+  "relationships": [
+    {
+      "source": "__module__",
+      "source_file": "setup.py",
+      "target": "setuptools",
+      "type": "imports",
+      "evidence": {
+        "line": 1,
+        "text": "import setuptools"
+      },
+      "confidence": 1.0
+    },
+    {
+      "source": "Value.__init__",
+      "source_file": "micrograd/engine.py",
+      "target": "set",
+      "type": "calls",
+      "evidence": {
+        "line": 10,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__add__",
+      "source_file": "micrograd/engine.py",
+      "target": "isinstance",
+      "type": "calls",
+      "evidence": {
+        "line": 14,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__add__",
+      "source_file": "micrograd/engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 14,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__add__",
+      "source_file": "micrograd/engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 15,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__mul__",
+      "source_file": "micrograd/engine.py",
+      "target": "isinstance",
+      "type": "calls",
+      "evidence": {
+        "line": 25,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__mul__",
+      "source_file": "micrograd/engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 25,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__mul__",
+      "source_file": "micrograd/engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 26,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__pow__",
+      "source_file": "micrograd/engine.py",
+      "target": "isinstance",
+      "type": "calls",
+      "evidence": {
+        "line": 36,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.__pow__",
+      "source_file": "micrograd/engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 37,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.relu",
+      "source_file": "micrograd/engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 46,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.backward",
+      "source_file": "micrograd/engine.py",
+      "target": "set",
+      "type": "calls",
+      "evidence": {
+        "line": 58,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.backward",
+      "source_file": "micrograd/engine.py",
+      "target": "visited.add",
+      "type": "calls",
+      "evidence": {
+        "line": 61,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.backward",
+      "source_file": "micrograd/engine.py",
+      "target": "build_topo",
+      "type": "calls",
+      "evidence": {
+        "line": 63,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.backward",
+      "source_file": "micrograd/engine.py",
+      "target": "topo.append",
+      "type": "calls",
+      "evidence": {
+        "line": 64,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.backward",
+      "source_file": "micrograd/engine.py",
+      "target": "build_topo",
+      "type": "calls",
+      "evidence": {
+        "line": 65,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.backward",
+      "source_file": "micrograd/engine.py",
+      "target": "reversed",
+      "type": "calls",
+      "evidence": {
+        "line": 69,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Value.backward",
+      "source_file": "micrograd/engine.py",
+      "target": "v._backward",
+      "type": "calls",
+      "evidence": {
+        "line": 70,
+        "caller_file": "micrograd/engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "__module__",
+      "source_file": "micrograd/nn.py",
+      "target": "random",
+      "type": "imports",
+      "evidence": {
+        "line": 1,
+        "text": "import random"
+      },
+      "confidence": 1.0
+    },
+    {
+      "source": "__module__",
+      "source_file": "micrograd/nn.py",
+      "target": "micrograd.engine.Value",
+      "type": "imports",
+      "evidence": {
+        "line": 2,
+        "text": "from micrograd.engine import Value"
+      },
+      "confidence": 1.0
+    },
+    {
+      "source": "Module.zero_grad",
+      "source_file": "micrograd/nn.py",
+      "target": "self.parameters",
+      "type": "calls",
+      "evidence": {
+        "line": 7,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 16,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "random.uniform",
+      "type": "calls",
+      "evidence": {
+        "line": 16,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "range",
+      "type": "calls",
+      "evidence": {
+        "line": 16,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 17,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__call__",
+      "source_file": "micrograd/nn.py",
+      "target": "sum",
+      "type": "calls",
+      "evidence": {
+        "line": 21,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__call__",
+      "source_file": "micrograd/nn.py",
+      "target": "zip",
+      "type": "calls",
+      "evidence": {
+        "line": 21,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__call__",
+      "source_file": "micrograd/nn.py",
+      "target": "act.relu",
+      "type": "calls",
+      "evidence": {
+        "line": 22,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Neuron.__repr__",
+      "source_file": "micrograd/nn.py",
+      "target": "len",
+      "type": "calls",
+      "evidence": {
+        "line": 28,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Layer.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "Neuron",
+      "type": "calls",
+      "evidence": {
+        "line": 33,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Layer.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "range",
+      "type": "calls",
+      "evidence": {
+        "line": 33,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Layer.__call__",
+      "source_file": "micrograd/nn.py",
+      "target": "n",
+      "type": "calls",
+      "evidence": {
+        "line": 36,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Layer.__call__",
+      "source_file": "micrograd/nn.py",
+      "target": "len",
+      "type": "calls",
+      "evidence": {
+        "line": 37,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Layer.parameters",
+      "source_file": "micrograd/nn.py",
+      "target": "n.parameters",
+      "type": "calls",
+      "evidence": {
+        "line": 40,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Layer.__repr__",
+      "source_file": "micrograd/nn.py",
+      "target": "', '.join",
+      "type": "calls",
+      "evidence": {
+        "line": 43,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "Layer.__repr__",
+      "source_file": "micrograd/nn.py",
+      "target": "str",
+      "type": "calls",
+      "evidence": {
+        "line": 43,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "Layer",
+      "type": "calls",
+      "evidence": {
+        "line": 49,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "len",
+      "type": "calls",
+      "evidence": {
+        "line": 49,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "range",
+      "type": "calls",
+      "evidence": {
+        "line": 49,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.__init__",
+      "source_file": "micrograd/nn.py",
+      "target": "len",
+      "type": "calls",
+      "evidence": {
+        "line": 49,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.__call__",
+      "source_file": "micrograd/nn.py",
+      "target": "layer",
+      "type": "calls",
+      "evidence": {
+        "line": 53,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.parameters",
+      "source_file": "micrograd/nn.py",
+      "target": "layer.parameters",
+      "type": "calls",
+      "evidence": {
+        "line": 57,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.__repr__",
+      "source_file": "micrograd/nn.py",
+      "target": "', '.join",
+      "type": "calls",
+      "evidence": {
+        "line": 60,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "MLP.__repr__",
+      "source_file": "micrograd/nn.py",
+      "target": "str",
+      "type": "calls",
+      "evidence": {
+        "line": 60,
+        "caller_file": "micrograd/nn.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "__module__",
+      "source_file": "test/test_engine.py",
+      "target": "torch",
+      "type": "imports",
+      "evidence": {
+        "line": 1,
+        "text": "import torch"
+      },
+      "confidence": 1.0
+    },
+    {
+      "source": "__module__",
+      "source_file": "test/test_engine.py",
+      "target": "micrograd.engine.Value",
+      "type": "imports",
+      "evidence": {
+        "line": 2,
+        "text": "from micrograd.engine import Value"
+      },
+      "confidence": 1.0
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 6,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "z.relu",
+      "type": "calls",
+      "evidence": {
+        "line": 8,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "(z * z).relu",
+      "type": "calls",
+      "evidence": {
+        "line": 9,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "y.backward",
+      "type": "calls",
+      "evidence": {
+        "line": 11,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "torch.Tensor([-4.0]).double",
+      "type": "calls",
+      "evidence": {
+        "line": 14,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "torch.Tensor",
+      "type": "calls",
+      "evidence": {
+        "line": 14,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "z.relu",
+      "type": "calls",
+      "evidence": {
+        "line": 17,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "(z * z).relu",
+      "type": "calls",
+      "evidence": {
+        "line": 18,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "y.backward",
+      "type": "calls",
+      "evidence": {
+        "line": 20,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "ypt.data.item",
+      "type": "calls",
+      "evidence": {
+        "line": 24,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_sanity_check",
+      "source_file": "test/test_engine.py",
+      "target": "xpt.grad.item",
+      "type": "calls",
+      "evidence": {
+        "line": 26,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 30,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "Value",
+      "type": "calls",
+      "evidence": {
+        "line": 31,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "(b + a).relu",
+      "type": "calls",
+      "evidence": {
+        "line": 36,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "(b - a).relu",
+      "type": "calls",
+      "evidence": {
+        "line": 37,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "g.backward",
+      "type": "calls",
+      "evidence": {
+        "line": 42,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "torch.Tensor([-4.0]).double",
+      "type": "calls",
+      "evidence": {
+        "line": 45,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "torch.Tensor",
+      "type": "calls",
+      "evidence": {
+        "line": 45,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "torch.Tensor([2.0]).double",
+      "type": "calls",
+      "evidence": {
+        "line": 46,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "torch.Tensor",
+      "type": "calls",
+      "evidence": {
+        "line": 46,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "(b + a).relu",
+      "type": "calls",
+      "evidence": {
+        "line": 53,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "(b - a).relu",
+      "type": "calls",
+      "evidence": {
+        "line": 54,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "g.backward",
+      "type": "calls",
+      "evidence": {
+        "line": 59,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "abs",
+      "type": "calls",
+      "evidence": {
+        "line": 64,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "gpt.data.item",
+      "type": "calls",
+      "evidence": {
+        "line": 64,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "abs",
+      "type": "calls",
+      "evidence": {
+        "line": 66,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "apt.grad.item",
+      "type": "calls",
+      "evidence": {
+        "line": 66,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "abs",
+      "type": "calls",
+      "evidence": {
+        "line": 67,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    },
+    {
+      "source": "test_more_ops",
+      "source_file": "test/test_engine.py",
+      "target": "bpt.grad.item",
+      "type": "calls",
+      "evidence": {
+        "line": 67,
+        "caller_file": "test/test_engine.py"
+      },
+      "confidence": 0.9
+    }
+  ]
+}

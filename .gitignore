@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Local backend state and cloned repositories
+*.db
+*.sqlite
+*.sqlite3
+.coverage
+backend/repos/
+.devonboard-cache/
+backend/tests/fixtures/token.txt
+backend/tests/fixtures/micrograd_repo/
+backend/tests/fixtures/requests_repo/
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+fastapi==0.135.1
+uvicorn[standard]==0.42.0
+SQLAlchemy==2.0.54
+aiosqlite==0.22.1
+asyncpg==0.31.0
+pydantic-settings==2.15.0
+python-jose[cryptography]==3.5.0
+httpx==0.28.1
+tree-sitter==0.26.0
+tree-sitter-python==0.25.0
+GitPython==3.1.46
+openai==2.53.0
